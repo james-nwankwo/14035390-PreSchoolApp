@@ -9,11 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    @IBOutlet weak var correct: UILabel!
+    
+    
+    @IBAction func button5(sender: AnyObject) {
+        
+        correct.text = ("Correct")
+    }
+    
+    
+    @IBAction func button0(sender: AnyObject) {
+        
+        correct.text = ("Wrong")
+    }
+   
+        
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        println("You can do thics")
+    
     }
 
     override func didReceiveMemoryWarning() {

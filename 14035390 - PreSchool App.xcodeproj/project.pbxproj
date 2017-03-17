@@ -13,6 +13,16 @@
 		966A75141E7C454600C563BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966A75131E7C454600C563BF /* Images.xcassets */; };
 		966A75171E7C454600C563BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966A75151E7C454600C563BF /* LaunchScreen.xib */; };
 		966A75231E7C454700C563BF /* _4035390___PreSchool_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A75221E7C454700C563BF /* _4035390___PreSchool_AppTests.swift */; };
+		96C8D0F21E7C4D50004B41E6 /* number0.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F11E7C4D50004B41E6 /* number0.png */; };
+		96C8D0FC1E7C522E004B41E6 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F31E7C522E004B41E6 /* number1.png */; };
+		96C8D0FD1E7C522E004B41E6 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F41E7C522E004B41E6 /* number2.png */; };
+		96C8D0FE1E7C522E004B41E6 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F51E7C522E004B41E6 /* number3.png */; };
+		96C8D0FF1E7C522E004B41E6 /* number4.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F61E7C522E004B41E6 /* number4.png */; };
+		96C8D1001E7C522E004B41E6 /* number5.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F71E7C522E004B41E6 /* number5.png */; };
+		96C8D1011E7C522E004B41E6 /* number6.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F81E7C522E004B41E6 /* number6.png */; };
+		96C8D1021E7C522E004B41E6 /* number7.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F91E7C522E004B41E6 /* number7.png */; };
+		96C8D1031E7C522E004B41E6 /* number8.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0FA1E7C522E004B41E6 /* number8.png */; };
+		96C8D1041E7C522E004B41E6 /* number9.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0FB1E7C522E004B41E6 /* number9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		966A751C1E7C454700C563BF /* 14035390 - PreSchool AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14035390 - PreSchool AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		966A75211E7C454700C563BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966A75221E7C454700C563BF /* _4035390___PreSchool_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_4035390___PreSchool_AppTests.swift"; sourceTree = "<group>"; };
+		96C8D0F11E7C4D50004B41E6 /* number0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number0.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number0.png"; sourceTree = "<group>"; };
+		96C8D0F31E7C522E004B41E6 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number1.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number1.png"; sourceTree = "<group>"; };
+		96C8D0F41E7C522E004B41E6 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number2.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number2.png"; sourceTree = "<group>"; };
+		96C8D0F51E7C522E004B41E6 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number3.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number3.png"; sourceTree = "<group>"; };
+		96C8D0F61E7C522E004B41E6 /* number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number4.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number4.png"; sourceTree = "<group>"; };
+		96C8D0F71E7C522E004B41E6 /* number5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number5.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number5.png"; sourceTree = "<group>"; };
+		96C8D0F81E7C522E004B41E6 /* number6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number6.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number6.png"; sourceTree = "<group>"; };
+		96C8D0F91E7C522E004B41E6 /* number7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number7.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number7.png"; sourceTree = "<group>"; };
+		96C8D0FA1E7C522E004B41E6 /* number8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number8.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number8.png"; sourceTree = "<group>"; };
+		96C8D0FB1E7C522E004B41E6 /* number9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number9.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number9.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +100,16 @@
 				966A750C1E7C454600C563BF /* AppDelegate.swift */,
 				966A750E1E7C454600C563BF /* ViewController.swift */,
 				966A75101E7C454600C563BF /* Main.storyboard */,
+				96C8D0F31E7C522E004B41E6 /* number1.png */,
+				96C8D0F41E7C522E004B41E6 /* number2.png */,
+				96C8D0F51E7C522E004B41E6 /* number3.png */,
+				96C8D0F61E7C522E004B41E6 /* number4.png */,
+				96C8D0F71E7C522E004B41E6 /* number5.png */,
+				96C8D0F81E7C522E004B41E6 /* number6.png */,
+				96C8D0F91E7C522E004B41E6 /* number7.png */,
+				96C8D0FA1E7C522E004B41E6 /* number8.png */,
+				96C8D0FB1E7C522E004B41E6 /* number9.png */,
+				96C8D0F11E7C4D50004B41E6 /* number0.png */,
 				966A75131E7C454600C563BF /* Images.xcassets */,
 				966A75151E7C454600C563BF /* LaunchScreen.xib */,
 				966A750A1E7C454600C563BF /* Supporting Files */,
@@ -193,8 +223,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				966A75121E7C454600C563BF /* Main.storyboard in Resources */,
+				96C8D1011E7C522E004B41E6 /* number6.png in Resources */,
+				96C8D0FE1E7C522E004B41E6 /* number3.png in Resources */,
+				96C8D1001E7C522E004B41E6 /* number5.png in Resources */,
+				96C8D0FC1E7C522E004B41E6 /* number1.png in Resources */,
+				96C8D0FF1E7C522E004B41E6 /* number4.png in Resources */,
 				966A75171E7C454600C563BF /* LaunchScreen.xib in Resources */,
 				966A75141E7C454600C563BF /* Images.xcassets in Resources */,
+				96C8D1021E7C522E004B41E6 /* number7.png in Resources */,
+				96C8D0F21E7C4D50004B41E6 /* number0.png in Resources */,
+				96C8D0FD1E7C522E004B41E6 /* number2.png in Resources */,
+				96C8D1031E7C522E004B41E6 /* number8.png in Resources */,
+				96C8D1041E7C522E004B41E6 /* number9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +451,7 @@
 				966A75281E7C454700C563BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		966A75291E7C454700C563BF /* Build configuration list for PBXNativeTarget "14035390 - PreSchool AppTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +460,7 @@
 				966A752B1E7C454700C563BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
