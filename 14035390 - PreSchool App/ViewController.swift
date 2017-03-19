@@ -9,17 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
-    //variables
-    
-   
-    
-    @IBOutlet weak var resultlbl: UILabel!
-    
 
     @IBOutlet weak var questionlbl: UILabel!
-    
     
     @IBOutlet weak var Button0: UIButton!
     @IBOutlet weak var Button1: UIButton!
@@ -34,15 +25,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var Button9: UIButton!
     
     
+    @IBOutlet weak var CongratsScreen: UIView!
+
+    @IBOutlet weak var answerlbl: UILabel!
+    
+    // Variables
+    
     var CorrectAnswer = Int()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib
         
         Questions()
-    
+        CongratsScreen.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,152 +48,177 @@ class ViewController: UIViewController {
     }
 
     
+   // Function that defines all the possible questions that can asked
+   
     func Questions(){
         
-     var RandNumb = arc4random() % 2
+     var RandNumb = arc4random_uniform(11)
         RandNumb += 1
-        
         
         switch(RandNumb){
             
-        
         case 1:
-
-                questionlbl.text = " 1 + 1 = ? "
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 1   +   1   =   ? "
                 CorrectAnswer = Int(2)
+                answerlbl.text = " 1   +   1   =   2 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+                
+                
             break
         case 2:
-                questionlbl.text = " 1 + 2 = ? "
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 1   +   2   =   ? "
                 CorrectAnswer = Int(3)
+                answerlbl.text = " 1   +   2   =   3 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+                
             break
         case 3:
-                questionlbl.text = " 1 + 3 = ? "
-                CorrectAnswer = Int(4)
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 5   +   3   =   ? "
+                CorrectAnswer = Int(8)
+                answerlbl.text = " 5   +   3   = 8 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+                
+            break
         case 4:
-                questionlbl.text = " 1 + 4 = ? "
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 3   +   4   =   ? "
+                CorrectAnswer = Int(7)
+                answerlbl.text = " 3   +   4   =   7 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+                
+            break
+        case 5:
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 2   +   2   =   ? "
+                CorrectAnswer = Int(4)
+                answerlbl.text = " 2   +   2   =   4 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+                
+                
+            break
+        case 6:
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 2   +   3   =   ? "
                 CorrectAnswer = Int(5)
-        
-        //    let questions = ["1 + 1 = ? ", "1 + 2 = ? ", "1 + 3 = ?", "1 + 4 = "]
-          //  let answer = [["2"], ["3"], ["4"], ["5"]]
+                answerlbl.text = " 2   +   3   =   5 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+                
+            break
+        case 7:
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 2   +   4   =   ? "
+                CorrectAnswer = Int(6)
+                answerlbl.text = " 2   +   4   =   6 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+                
+            break
+        case 8:
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 2   +   5   =   ? "
+                CorrectAnswer = Int(7)
+                answerlbl.text = " 2   +   5   =   7   "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+            break
+        case 9:
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 2   +   6   =   ? "
+                CorrectAnswer = Int(8)
+                answerlbl.text = " 2   +   6   =   8 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+            break
+        case 10:
+                questionlbl.font = questionlbl.font.fontWithSize(40)
+                questionlbl.text = " 2   +   7   =   ? "
+                CorrectAnswer = Int(9)
+                answerlbl.text = " 2   +   7   =   9 "
+                answerlbl.font = answerlbl.font.fontWithSize(40)
+            break
             
-        
-        
         default:
-            
             break
             
         }
-        
-        
     }
 
+        // Functions that defines which button is the correct answer
     
     @IBAction func Button0(sender: AnyObject) {
-        
         if (CorrectAnswer == 0) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
     }
-    
     
     @IBAction func Button1(sender: AnyObject) {
         
         if (CorrectAnswer == 1) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
     }
-    
     
     @IBAction func Button2(sender: AnyObject) {
         if (CorrectAnswer == 2) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
     }
-    
     
     @IBAction func Button3(sender: AnyObject) {
         
         if (CorrectAnswer == 3) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
     }
-    
     
     @IBAction func Button4(sender: AnyObject) {
         
         if (CorrectAnswer == 4) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
-
     }
-    
     
     @IBAction func Button5(sender: AnyObject) {
         
         if (CorrectAnswer == 5) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
-
     }
-    
     
     @IBAction func Button6(sender: AnyObject) {
         
         if (CorrectAnswer == 6) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
-
     }
-    
     
     @IBAction func Button7(sender: AnyObject) {
         
         if (CorrectAnswer == 7) {
-        resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
-
-        
     }
-    
     
     @IBAction func Button8(sender: AnyObject) {
         
         if (CorrectAnswer == 8) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
-        
-        Questions()
-
     }
-    
     
     @IBAction func Button9(sender: AnyObject) {
         if (CorrectAnswer == 9) {
-            resultlbl.text = "correct"
+            CongratsScreen.hidden = false
         }
+    }
+    
+    // Function for next question button on congrats screen
+    
+    @IBAction func NextQuestion(sender: AnyObject) {
         
         Questions()
-
+        CongratsScreen.hidden = true
     }
-
-    
     
 }
-
 

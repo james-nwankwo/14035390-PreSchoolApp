@@ -13,6 +13,9 @@
 		966A75141E7C454600C563BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966A75131E7C454600C563BF /* Images.xcassets */; };
 		966A75171E7C454600C563BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966A75151E7C454600C563BF /* LaunchScreen.xib */; };
 		966A75231E7C454700C563BF /* _4035390___PreSchool_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A75221E7C454700C563BF /* _4035390___PreSchool_AppTests.swift */; };
+		96B4ECCC1E7F04F4003D3DDB /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B4ECC91E7F04F4003D3DDB /* play_again.png */; };
+		96B4ECCD1E7F04F4003D3DDB /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B4ECCA1E7F04F4003D3DDB /* star_kids.png */; };
+		96B4ECCE1E7F04F4003D3DDB /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B4ECCB1E7F04F4003D3DDB /* thumbs_up.png */; };
 		96C8D0F21E7C4D50004B41E6 /* number0.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F11E7C4D50004B41E6 /* number0.png */; };
 		96C8D0FC1E7C522E004B41E6 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F31E7C522E004B41E6 /* number1.png */; };
 		96C8D0FD1E7C522E004B41E6 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D0F41E7C522E004B41E6 /* number2.png */; };
@@ -46,6 +49,9 @@
 		966A751C1E7C454700C563BF /* 14035390 - PreSchool AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14035390 - PreSchool AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		966A75211E7C454700C563BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966A75221E7C454700C563BF /* _4035390___PreSchool_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_4035390___PreSchool_AppTests.swift"; sourceTree = "<group>"; };
+		96B4ECC91E7F04F4003D3DDB /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_again.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/play_again.png"; sourceTree = "<group>"; };
+		96B4ECCA1E7F04F4003D3DDB /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_kids.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/star_kids.png"; sourceTree = "<group>"; };
+		96B4ECCB1E7F04F4003D3DDB /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbs_up.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/thumbs_up.png"; sourceTree = "<group>"; };
 		96C8D0F11E7C4D50004B41E6 /* number0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number0.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number0.png"; sourceTree = "<group>"; };
 		96C8D0F31E7C522E004B41E6 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number1.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number1.png"; sourceTree = "<group>"; };
 		96C8D0F41E7C522E004B41E6 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number2.png; path = "../../CW1-PreSchoolApp/CW1-PreSchoolApp/Images.xcassets/images/number2.png"; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				966A750C1E7C454600C563BF /* AppDelegate.swift */,
 				966A750E1E7C454600C563BF /* ViewController.swift */,
 				966A75101E7C454600C563BF /* Main.storyboard */,
+				96B4ECC91E7F04F4003D3DDB /* play_again.png */,
+				96B4ECCA1E7F04F4003D3DDB /* star_kids.png */,
+				96B4ECCB1E7F04F4003D3DDB /* thumbs_up.png */,
 				96C8D0F31E7C522E004B41E6 /* number1.png */,
 				96C8D0F41E7C522E004B41E6 /* number2.png */,
 				96C8D0F51E7C522E004B41E6 /* number3.png */,
@@ -222,11 +231,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B4ECCC1E7F04F4003D3DDB /* play_again.png in Resources */,
 				966A75121E7C454600C563BF /* Main.storyboard in Resources */,
 				96C8D1011E7C522E004B41E6 /* number6.png in Resources */,
 				96C8D0FE1E7C522E004B41E6 /* number3.png in Resources */,
+				96B4ECCD1E7F04F4003D3DDB /* star_kids.png in Resources */,
 				96C8D1001E7C522E004B41E6 /* number5.png in Resources */,
 				96C8D0FC1E7C522E004B41E6 /* number1.png in Resources */,
+				96B4ECCE1E7F04F4003D3DDB /* thumbs_up.png in Resources */,
 				96C8D0FF1E7C522E004B41E6 /* number4.png in Resources */,
 				966A75171E7C454600C563BF /* LaunchScreen.xib in Resources */,
 				966A75141E7C454600C563BF /* Images.xcassets in Resources */,
