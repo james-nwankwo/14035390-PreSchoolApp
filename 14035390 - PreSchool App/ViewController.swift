@@ -39,6 +39,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib
         
         Questions()
+        questionlbl.font = questionlbl.font.fontWithSize(40)
+        answerlbl.font = answerlbl.font.fontWithSize(40)
         CongratsScreen.hidden = true
     }
 
@@ -52,90 +54,104 @@ class ViewController: UIViewController {
    
     func Questions(){
         
-     var RandNumb = arc4random_uniform(11)
-        RandNumb += 1
+     //Randomises which case is chosen
+        
+     var RandNumb = arc4random_uniform(16)
+        
         
         switch(RandNumb){
             
+        // Each Possible Question
+            
         case 1:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 1   +   1   =   ? "
                 CorrectAnswer = Int(2)
                 answerlbl.text = " 1   +   1   =   2 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
-                
                 
             break
         case 2:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 1   +   2   =   ? "
                 CorrectAnswer = Int(3)
                 answerlbl.text = " 1   +   2   =   3 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
-                
+               
             break
         case 3:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 5   +   3   =   ? "
                 CorrectAnswer = Int(8)
                 answerlbl.text = " 5   +   3   = 8 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
-                
+            
             break
         case 4:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 3   +   4   =   ? "
                 CorrectAnswer = Int(7)
                 answerlbl.text = " 3   +   4   =   7 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
-                
+            
             break
         case 5:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 2   +   2   =   ? "
                 CorrectAnswer = Int(4)
                 answerlbl.text = " 2   +   2   =   4 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
-                
                 
             break
         case 6:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 2   +   3   =   ? "
                 CorrectAnswer = Int(5)
                 answerlbl.text = " 2   +   3   =   5 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
-                
+            
             break
         case 7:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 2   +   4   =   ? "
                 CorrectAnswer = Int(6)
                 answerlbl.text = " 2   +   4   =   6 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
                 
             break
         case 8:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 2   +   5   =   ? "
                 CorrectAnswer = Int(7)
                 answerlbl.text = " 2   +   5   =   7   "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
+        
             break
         case 9:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 2   +   6   =   ? "
                 CorrectAnswer = Int(8)
                 answerlbl.text = " 2   +   6   =   8 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
-            break
+           break
         case 10:
-                questionlbl.font = questionlbl.font.fontWithSize(40)
                 questionlbl.text = " 2   +   7   =   ? "
                 CorrectAnswer = Int(9)
                 answerlbl.text = " 2   +   7   =   9 "
-                answerlbl.font = answerlbl.font.fontWithSize(40)
+           break
+        case 11:
+                questionlbl.text = " 3   -   2   =   ? "
+                CorrectAnswer = Int(1)
+                answerlbl.text = " 3   -   2   =   1 "
+                
             break
+        case 12:
+                questionlbl.text = " 4   -   2   =   ? "
+                CorrectAnswer = Int(2)
+                answerlbl.text = " 4   -   2   =   2 "
+            
+            break
+        case 13:
+                questionlbl.text = " 5   -   2   =   ? "
+                CorrectAnswer = Int(3)
+                answerlbl.text = " 5   -   2   =   3   "
+            
+            break
+        case 14:
+                questionlbl.text = " 6   -   2   =   ? "
+                CorrectAnswer = Int(4)
+                answerlbl.text = " 6   -   2   =   4 "
+                
+            break
+        case 15:
+                questionlbl.text = " 7   -   2  =   ? "
+                CorrectAnswer = Int(5)
+                answerlbl.text = " 7   -   2   =   5 "
+                
+            break
+
             
         default:
             break
@@ -212,7 +228,7 @@ class ViewController: UIViewController {
         }
     }
     
-    // Function for next question button on congrats screen
+    // Function for next question button on Congrats Screen
     
     @IBAction func NextQuestion(sender: AnyObject) {
         
