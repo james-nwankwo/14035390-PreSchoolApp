@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         
      //Randomises which case is chosen
         
-     var RandNumb = arc4random_uniform(16)
+     var RandNumb = arc4random_uniform(15)
         
         
         switch(RandNumb){
@@ -151,7 +151,6 @@ class ViewController: UIViewController {
                 answerlbl.text = " 7   -   2   =   5 "
                 
             break
-
             
         default:
             break

@@ -111,6 +111,21 @@
                                     <action selector="Button7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yEK-6I-a9G"/>
                                 </connections>
                             </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SlT-bh-PV4">
+                                <rect key="frame" x="0.0" y="274" width="375" height="393"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="BtD-hL-qQ1" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                        <rect key="frame" x="62" y="225" width="70" height="68"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="RtW-DP-2NL" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                        <rect key="frame" x="122" y="255" width="63" height="68"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAN-k9-tY0" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                        <rect key="frame" x="180" y="242" width="63" height="68"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <view hidden="YES" autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VK3-Dr-lKv">
                                 <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                                 <subviews>
@@ -131,7 +146,7 @@
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="BSH-Oy-50e">
                                         <rect key="frame" x="260" y="49" width="83" height="75"/>
-                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zn3-pC-qdn">
                                         <rect key="frame" x="51" y="415" width="89" height="76"/>
@@ -174,6 +189,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="apple.png" width="256" height="256"/>
         <image name="number0.png" width="256" height="256"/>
         <image name="number1.png" width="256" height="256"/>
         <image name="number2.png" width="256" height="256"/>
