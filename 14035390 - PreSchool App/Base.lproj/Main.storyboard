@@ -111,21 +111,12 @@
                                     <action selector="Button7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yEK-6I-a9G"/>
                                 </connections>
                             </button>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SlT-bh-PV4">
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBH-KI-2p8">
                                 <rect key="frame" x="0.0" y="274" width="375" height="393"/>
-                                <subviews>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="BtD-hL-qQ1" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                        <rect key="frame" x="62" y="225" width="70" height="68"/>
-                                    </imageView>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="RtW-DP-2NL" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                        <rect key="frame" x="122" y="255" width="63" height="68"/>
-                                    </imageView>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAN-k9-tY0" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                        <rect key="frame" x="180" y="242" width="63" height="68"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                                <connections>
+                                    <segue destination="fuT-2q-FAN" kind="embed" id="500-VZ-2il"/>
+                                </connections>
+                            </containerView>
                             <view hidden="YES" autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VK3-Dr-lKv">
                                 <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                                 <subviews>
@@ -187,6 +178,57 @@
             </objects>
             <point key="canvasLocation" x="306.5" y="3.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="UT7-B5-F3d">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fuT-2q-FAN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cwi-pz-a7u"/>
+                        <viewControllerLayoutGuide type="bottom" id="hrp-IG-Umw"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="knJ-Oo-Pyw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="n35-bj-VYM" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="230" width="375" height="163"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="eyk-fu-qhB" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="50" y="269" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="vAG-Co-7lS" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="285" y="269" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="bJs-Ew-qvi" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="240" y="278" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="OuW-Mk-4h5" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="119" y="253" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-gd-X5o" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="85" y="278" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-Ai-VWb" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="171" y="280" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="adD-bC-yAy" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="205" y="264" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Enx-Lr-qUu" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="16" y="259" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="gtg-Fa-Oi2" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="136" y="280" width="61" height="63"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W88-F3-GCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712.5" y="-61.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="apple.png" width="256" height="256"/>
@@ -200,6 +242,7 @@
         <image name="number7.png" width="256" height="256"/>
         <image name="number8.png" width="256" height="256"/>
         <image name="number9.png" width="256" height="256"/>
+        <image name="plate_white.png" width="1600" height="1200"/>
         <image name="play_again.png" width="216" height="218"/>
         <image name="star_kids.png" width="256" height="256"/>
         <image name="thumbs_up.png" width="256" height="256"/>

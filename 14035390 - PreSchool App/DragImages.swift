@@ -34,18 +34,18 @@ class DragImages: UIImageView {
             
             self.center = CGPointMake(self.center.x+dx, self.center.y+dy)
             
-            
-            
+}
+
+}
+   
+    
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func drawRect(rect: CGRect) {
-        // Drawing code
+    // Drawing code
     }
     */
-
-}
-
-}
+    
     
 }

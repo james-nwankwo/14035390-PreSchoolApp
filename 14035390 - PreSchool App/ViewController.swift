@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var Button8: UIButton!
     @IBOutlet weak var Button9: UIButton!
     
-    
     @IBOutlet weak var CongratsScreen: UIView!
 
     @IBOutlet weak var answerlbl: UILabel!
@@ -32,7 +31,6 @@ class ViewController: UIViewController {
     // Variables
     
     var CorrectAnswer = Int()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +47,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    
    // Function that defines all the possible questions that can asked
    
     func Questions(){
