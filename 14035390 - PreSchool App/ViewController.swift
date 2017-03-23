@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var containerView: UIView!
 
     @IBOutlet weak var questionlbl: UILabel!
     
@@ -28,6 +31,17 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var answerlbl: UILabel!
     
+    
+    @IBOutlet weak var star1: UIImageView!
+    @IBOutlet weak var star2: UIImageView!
+    @IBOutlet weak var star3: UIImageView!
+    @IBOutlet weak var star4: UIImageView!
+    
+    @IBOutlet weak var nextquestion: UIButton!
+    
+    
+    @IBOutlet weak var thumbsup: UIImageView!
+    
     // Variables
     
     var CorrectAnswer = Int()
@@ -37,10 +51,25 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib
         
         Questions()
-        questionlbl.font = questionlbl.font.fontWithSize(40)
-        answerlbl.font = answerlbl.font.fontWithSize(40)
+        questionlbl.font = questionlbl.font.fontWithSize(45)
+        answerlbl.font = answerlbl.font.fontWithSize(45)
         CongratsScreen.hidden = true
     }
+    
+    
+    
+    override func viewWillAppear(animated: Bool)
+    {
+    
+    super.viewWillAppear(animated)
+        
+        UIView.animateWithDuration(3, animations: {
+            self.questionlbl.center.x += self.view.bounds.width
+        
+    })
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -63,89 +92,89 @@ class ViewController: UIViewController {
         case 1:
                 questionlbl.text = " 1   +   1   =   ? "
                 CorrectAnswer = Int(2)
-                answerlbl.text = " 1   +   1   =   2 "
+                answerlbl.text = " 1   +   1   =   2 !!! "
                 
             break
         case 2:
                 questionlbl.text = " 1   +   2   =   ? "
                 CorrectAnswer = Int(3)
-                answerlbl.text = " 1   +   2   =   3 "
+                answerlbl.text = " 1   +   2   =   3 !!! "
                
             break
         case 3:
                 questionlbl.text = " 5   +   3   =   ? "
                 CorrectAnswer = Int(8)
-                answerlbl.text = " 5   +   3   = 8 "
+                answerlbl.text = " 5   +   3   =  8 !!! "
             
             break
         case 4:
                 questionlbl.text = " 3   +   4   =   ? "
                 CorrectAnswer = Int(7)
-                answerlbl.text = " 3   +   4   =   7 "
+                answerlbl.text = " 3   +   4   =   7 !!! "
             
             break
         case 5:
                 questionlbl.text = " 2   +   2   =   ? "
                 CorrectAnswer = Int(4)
-                answerlbl.text = " 2   +   2   =   4 "
+                answerlbl.text = " 2   +   2   =   4 !!! "
                 
             break
         case 6:
                 questionlbl.text = " 2   +   3   =   ? "
                 CorrectAnswer = Int(5)
-                answerlbl.text = " 2   +   3   =   5 "
+                answerlbl.text = " 2   +   3   =   5 !!! "
             
             break
         case 7:
                 questionlbl.text = " 2   +   4   =   ? "
                 CorrectAnswer = Int(6)
-                answerlbl.text = " 2   +   4   =   6 "
+                answerlbl.text = " 2   +   4   =   6 !!! "
                 
             break
         case 8:
                 questionlbl.text = " 2   +   5   =   ? "
                 CorrectAnswer = Int(7)
-                answerlbl.text = " 2   +   5   =   7   "
+                answerlbl.text = " 2   +   5   =   7 !!! "
         
             break
         case 9:
                 questionlbl.text = " 2   +   6   =   ? "
                 CorrectAnswer = Int(8)
-                answerlbl.text = " 2   +   6   =   8 "
+                answerlbl.text = " 2   +   6   =   8 !!! "
            break
         case 10:
                 questionlbl.text = " 2   +   7   =   ? "
                 CorrectAnswer = Int(9)
-                answerlbl.text = " 2   +   7   =   9 "
+                answerlbl.text = " 2   +   7   =   9 !!! "
            break
         case 11:
                 questionlbl.text = " 3   -   2   =   ? "
                 CorrectAnswer = Int(1)
-                answerlbl.text = " 3   -   2   =   1 "
+                answerlbl.text = " 3   -   2   =   1 !!! "
                 
             break
         case 12:
                 questionlbl.text = " 4   -   2   =   ? "
                 CorrectAnswer = Int(2)
-                answerlbl.text = " 4   -   2   =   2 "
+                answerlbl.text = " 4   -   2   =   2 !!! "
             
             break
         case 13:
                 questionlbl.text = " 5   -   2   =   ? "
                 CorrectAnswer = Int(3)
-                answerlbl.text = " 5   -   2   =   3   "
+                answerlbl.text = " 5   -   2   =   3  !!! "
             
             break
         case 14:
                 questionlbl.text = " 6   -   2   =   ? "
                 CorrectAnswer = Int(4)
-                answerlbl.text = " 6   -   2   =   4 "
+                answerlbl.text = " 6   -   2   =   4 !!! "
                 
             break
         case 15:
                 questionlbl.text = " 7   -   2  =   ? "
                 CorrectAnswer = Int(5)
-                answerlbl.text = " 7   -   2   =   5 "
+                answerlbl.text = " 7   -   2   =   5 !!! "
                 
             break
             
@@ -160,6 +189,7 @@ class ViewController: UIViewController {
     @IBAction func Button0(sender: AnyObject) {
         if (CorrectAnswer == 0) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -167,12 +197,14 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == 1) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
     @IBAction func Button2(sender: AnyObject) {
         if (CorrectAnswer == 2) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -180,6 +212,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == 3) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -187,6 +220,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == 4) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -194,6 +228,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == 5) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -201,6 +236,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == 6) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -208,6 +244,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == 7) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -215,12 +252,14 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == 8) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
     @IBAction func Button9(sender: AnyObject) {
         if (CorrectAnswer == 9) {
             CongratsScreen.hidden = false
+            Animation()
         }
     }
     
@@ -232,5 +271,31 @@ class ViewController: UIViewController {
         CongratsScreen.hidden = true
     }
     
+    
+    func Animation() {
+        
+    UIView.animateWithDuration(5.0, animations: {
+    
+    UIView.beginAnimations(nil, context: nil)
+    UIView.setAnimationDuration(60)
+    UIView.setAnimationCurve(UIViewAnimationCurve.EaseIn)
+    let radians = CGFloat(1440 * M_PI / 1440)
+    self.star1.transform = CGAffineTransformMakeRotation(radians)
+    self.star2.transform = CGAffineTransformMakeRotation(radians)
+    self.star3.transform = CGAffineTransformMakeRotation(radians)
+    self.star4.transform = CGAffineTransformMakeRotation(radians)
+    self.thumbsup.transform = CGAffineTransformMakeScale(0.8, 0.75)
+    UIView.commitAnimations()
+    
+    })
+
+    
+    
+    
 }
+
+}
+
+
+
 

@@ -117,7 +117,7 @@
                                     <segue destination="fuT-2q-FAN" kind="embed" id="500-VZ-2il"/>
                                 </connections>
                             </containerView>
-                            <view hidden="YES" autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VK3-Dr-lKv">
+                            <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VK3-Dr-lKv">
                                 <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6r3-DY-NmZ">
@@ -129,9 +129,6 @@
                                             <action selector="NextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jee-Tp-9Bs"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbs_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="lj9-JS-Qcr">
-                                        <rect key="frame" x="8" y="294" width="88" height="98"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="q7A-Qo-YKL">
                                         <rect key="frame" x="8" y="8" width="106" height="90"/>
                                     </imageView>
@@ -151,11 +148,14 @@
                                         <color key="textColor" red="1" green="0.051969288993932827" blue="0.11106611192669191" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbs_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="lj9-JS-Qcr">
+                                        <rect key="frame" x="8" y="271" width="88" height="98"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -171,7 +171,14 @@
                         <outlet property="Button9" destination="JDT-Vf-Mbd" id="7RS-pT-7a5"/>
                         <outlet property="CongratsScreen" destination="VK3-Dr-lKv" id="Czr-0U-e1z"/>
                         <outlet property="answerlbl" destination="JDB-ef-cel" id="SOK-vg-bgv"/>
+                        <outlet property="containerView" destination="bBH-KI-2p8" id="kEK-12-89t"/>
+                        <outlet property="nextquestion" destination="6r3-DY-NmZ" id="4DJ-DJ-H6n"/>
                         <outlet property="questionlbl" destination="iQb-rO-oxo" id="sgs-70-Kef"/>
+                        <outlet property="star1" destination="q7A-Qo-YKL" id="3Fi-3H-Vmy"/>
+                        <outlet property="star2" destination="BSH-Oy-50e" id="feB-9x-g6G"/>
+                        <outlet property="star3" destination="Zn3-pC-qdn" id="1w9-9r-R4N"/>
+                        <outlet property="star4" destination="w1t-js-jHm" id="3IB-eX-8RU"/>
+                        <outlet property="thumbsup" destination="lj9-JS-Qcr" id="G5z-Tm-2jH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -194,31 +201,31 @@
                                 <rect key="frame" x="0.0" y="230" width="375" height="163"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="eyk-fu-qhB" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="50" y="269" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="vAG-Co-7lS" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="285" y="269" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="bJs-Ew-qvi" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="240" y="278" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="OuW-Mk-4h5" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="119" y="253" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-gd-X5o" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="85" y="278" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-Ai-VWb" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="171" y="280" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="adD-bC-yAy" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="205" y="264" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Enx-Lr-qUu" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="16" y="259" width="61" height="63"/>
+                                <rect key="frame" x="59" y="269" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="gtg-Fa-Oi2" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="136" y="280" width="61" height="63"/>
+                                <rect key="frame" x="157" y="278" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="vAG-Co-7lS" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="298" y="259" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="bJs-Ew-qvi" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="264" y="269" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="OuW-Mk-4h5" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="126" y="259" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-gd-X5o" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="104" y="278" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="adD-bC-yAy" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="195" y="259" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Enx-Lr-qUu" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="25" y="259" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-Ai-VWb" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="226" y="278" width="61" height="63"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
