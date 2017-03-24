@@ -13,115 +13,144 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBd-Kt-rMi">
-                                <rect key="frame" x="155" y="28" width="64" height="63"/>
-                                <state key="normal" image="number2.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0MV-5b-0DI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wh-ZO-QJj">
-                                <rect key="frame" x="227" y="28" width="64" height="63"/>
-                                <state key="normal" image="number3.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="etF-bD-8fJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecC-6u-icK">
-                                <rect key="frame" x="299" y="28" width="64" height="63"/>
-                                <state key="normal" image="number4.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bck-ic-pdf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1a-2L-N2y">
-                                <rect key="frame" x="11" y="106" width="64" height="63"/>
-                                <state key="normal" image="number5.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1l7-an-a9J"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJp-wy-19u">
-                                <rect key="frame" x="227" y="106" width="64" height="63"/>
-                                <state key="normal" image="number8.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dS4-mn-rf0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDT-Vf-Mbd">
-                                <rect key="frame" x="299" y="106" width="64" height="63"/>
-                                <state key="normal" image="number9.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T6j-kp-pVf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhM-PR-eaC">
-                                <rect key="frame" x="11" y="28" width="64" height="63"/>
-                                <state key="normal" image="number0.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6l3-t3-Rjh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fN3-S9-99w">
-                                <rect key="frame" x="83" y="28" width="64" height="63"/>
-                                <state key="normal" image="number1.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2nI-tj-Qug"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="smH-8q-yZE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQb-rO-oxo">
-                                <rect key="frame" x="6" y="198" width="382" height="68"/>
+                                <rect key="frame" x="0.0" y="198" width="320" height="58"/>
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6w-H6-1ts">
-                                <rect key="frame" x="83" y="106" width="64" height="63"/>
-                                <state key="normal" image="number6.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rYY-0g-cID"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCp-Vz-qZt">
-                                <rect key="frame" x="155" y="106" width="64" height="63"/>
-                                <state key="normal" image="number7.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Button7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yEK-6I-a9G"/>
-                                </connections>
-                            </button>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBH-KI-2p8">
-                                <rect key="frame" x="0.0" y="274" width="375" height="393"/>
+                            <containerView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBH-KI-2p8">
+                                <rect key="frame" x="0.0" y="271" width="320" height="297"/>
                                 <connections>
                                     <segue destination="fuT-2q-FAN" kind="embed" id="500-VZ-2il"/>
                                 </connections>
                             </containerView>
-                            <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VK3-Dr-lKv">
-                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZf-JT-tMs">
+                                <rect key="frame" x="0.0" y="35" width="320" height="146"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhM-PR-eaC">
+                                        <rect key="frame" x="4" y="0.0" width="56" height="59"/>
+                                        <state key="normal" image="number0.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6l3-t3-Rjh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fN3-S9-99w">
+                                        <rect key="frame" x="68" y="0.0" width="56" height="59"/>
+                                        <state key="normal" image="number1.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2nI-tj-Qug"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBd-Kt-rMi">
+                                        <rect key="frame" x="132" y="0.0" width="56" height="59"/>
+                                        <state key="normal" image="number2.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0MV-5b-0DI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wh-ZO-QJj">
+                                        <rect key="frame" x="196" y="1" width="56" height="58"/>
+                                        <state key="normal" image="number3.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="etF-bD-8fJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecC-6u-icK">
+                                        <rect key="frame" x="260" y="2" width="56" height="57"/>
+                                        <state key="normal" image="number4.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bck-ic-pdf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1a-2L-N2y">
+                                        <rect key="frame" x="4" y="67" width="56" height="57"/>
+                                        <state key="normal" image="number5.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1l7-an-a9J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6w-H6-1ts">
+                                        <rect key="frame" x="68" y="67" width="56" height="57"/>
+                                        <state key="normal" image="number6.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rYY-0g-cID"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCp-Vz-qZt">
+                                        <rect key="frame" x="132" y="67" width="56" height="57"/>
+                                        <state key="normal" image="number7.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yEK-6I-a9G"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJp-wy-19u">
+                                        <rect key="frame" x="196" y="67" width="56" height="57"/>
+                                        <state key="normal" image="number8.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dS4-mn-rf0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDT-Vf-Mbd">
+                                        <rect key="frame" x="260" y="67" width="56" height="57"/>
+                                        <state key="normal" image="number9.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Button9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T6j-kp-pVf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VK3-Dr-lKv">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="BSH-Oy-50e">
+                                        <rect key="frame" x="215" y="36" width="83" height="75"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zn3-pC-qdn">
+                                        <rect key="frame" x="24" y="430" width="89" height="76"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="w1t-js-jHm">
+                                        <rect key="frame" x="219" y="438" width="75" height="68"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDB-ef-cel">
+                                        <rect key="frame" x="0.0" y="127" width="320" height="85"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" red="1" green="0.051969288993932827" blue="0.11106611192669191" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbs_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="lj9-JS-Qcr">
+                                        <rect key="frame" x="0.0" y="248" width="76" height="98"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6r3-DY-NmZ">
-                                        <rect key="frame" x="104" y="248" width="153" height="144"/>
+                                        <rect key="frame" x="84" y="209" width="153" height="144"/>
                                         <state key="normal" image="play_again.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -130,26 +159,7 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="q7A-Qo-YKL">
-                                        <rect key="frame" x="8" y="8" width="106" height="90"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="BSH-Oy-50e">
-                                        <rect key="frame" x="260" y="49" width="83" height="75"/>
-                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zn3-pC-qdn">
-                                        <rect key="frame" x="51" y="415" width="89" height="76"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="w1t-js-jHm">
-                                        <rect key="frame" x="241" y="503" width="75" height="68"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDB-ef-cel">
-                                        <rect key="frame" x="8" y="156" width="359" height="84"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <color key="textColor" red="1" green="0.051969288993932827" blue="0.11106611192669191" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbs_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="lj9-JS-Qcr">
-                                        <rect key="frame" x="8" y="271" width="88" height="98"/>
+                                        <rect key="frame" x="24" y="46" width="102" height="90"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -157,7 +167,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="Button0" destination="vhM-PR-eaC" id="6xH-XB-SwK"/>
                         <outlet property="Button1" destination="fN3-S9-99w" id="s7K-zR-X8w"/>
@@ -171,7 +181,6 @@
                         <outlet property="Button9" destination="JDT-Vf-Mbd" id="7RS-pT-7a5"/>
                         <outlet property="CongratsScreen" destination="VK3-Dr-lKv" id="Czr-0U-e1z"/>
                         <outlet property="answerlbl" destination="JDB-ef-cel" id="SOK-vg-bgv"/>
-                        <outlet property="containerView" destination="bBH-KI-2p8" id="kEK-12-89t"/>
                         <outlet property="nextquestion" destination="6r3-DY-NmZ" id="4DJ-DJ-H6n"/>
                         <outlet property="questionlbl" destination="iQb-rO-oxo" id="sgs-70-Kef"/>
                         <outlet property="star1" destination="q7A-Qo-YKL" id="3Fi-3H-Vmy"/>
@@ -183,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="306.5" y="3.5"/>
+            <point key="canvasLocation" x="306" y="3"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UT7-B5-F3d">
@@ -193,48 +202,51 @@
                         <viewControllerLayoutGuide type="top" id="Cwi-pz-a7u"/>
                         <viewControllerLayoutGuide type="bottom" id="hrp-IG-Umw"/>
                     </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="knJ-Oo-Pyw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="393"/>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" id="knJ-Oo-Pyw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="297"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="n35-bj-VYM" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="230" width="375" height="163"/>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="n35-bj-VYM">
+                                <rect key="frame" x="-3" y="156" width="327" height="158"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="eyk-fu-qhB" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="59" y="269" width="61" height="63"/>
+                                <rect key="frame" x="45" y="203" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="gtg-Fa-Oi2" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="157" y="278" width="61" height="63"/>
+                                <rect key="frame" x="151" y="201" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="vAG-Co-7lS" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="298" y="259" width="61" height="63"/>
+                                <rect key="frame" x="247" y="187" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="bJs-Ew-qvi" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="264" y="269" width="61" height="63"/>
+                                <rect key="frame" x="172" y="181" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="OuW-Mk-4h5" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="126" y="259" width="61" height="63"/>
+                                <rect key="frame" x="98" y="187" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-gd-X5o" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="104" y="278" width="61" height="63"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="adD-bC-yAy" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="195" y="259" width="61" height="63"/>
+                                <rect key="frame" x="87" y="203" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Enx-Lr-qUu" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="25" y="259" width="61" height="63"/>
+                                <rect key="frame" x="13" y="187" width="61" height="63"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-Ai-VWb" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
-                                <rect key="frame" x="226" y="278" width="61" height="63"/>
+                                <rect key="frame" x="130" y="201" width="61" height="63"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="adD-bC-yAy" customClass="DragImages" customModule="_4035390___PreSchool_App" customModuleProvider="target">
+                                <rect key="frame" x="199" y="201" width="61" height="63"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
+                    <connections>
+                        <outlet property="view" destination="TF7-gd-X5o" id="v7b-oD-ge4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W88-F3-GCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="712.5" y="-61.5"/>
+            <point key="canvasLocation" x="802" y="-76.5"/>
         </scene>
     </scenes>
     <resources>

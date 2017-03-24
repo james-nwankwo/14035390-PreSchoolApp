@@ -9,9 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
-    @IBOutlet weak var containerView: UIView!
 
     @IBOutlet weak var questionlbl: UILabel!
     
@@ -30,7 +27,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var CongratsScreen: UIView!
 
     @IBOutlet weak var answerlbl: UILabel!
-    
     
     @IBOutlet weak var star1: UIImageView!
     @IBOutlet weak var star2: UIImageView!
@@ -54,9 +50,8 @@ class ViewController: UIViewController {
         questionlbl.font = questionlbl.font.fontWithSize(45)
         answerlbl.font = answerlbl.font.fontWithSize(45)
         CongratsScreen.hidden = true
-    }
-    
-    
+        
+        }
     
     override func viewWillAppear(animated: Bool)
     {
@@ -65,9 +60,12 @@ class ViewController: UIViewController {
         
         UIView.animateWithDuration(3, animations: {
             self.questionlbl.center.x += self.view.bounds.width
-        
     })
         
+    }
+    
+    
+    override func viewDidAppear(animated: Bool) {
     }
     
 
@@ -82,7 +80,7 @@ class ViewController: UIViewController {
         
      //Randomises which case is chosen
         
-     var RandNumb = arc4random_uniform(15)
+     var RandNumb = arc4random_uniform(24)
         
         
         switch(RandNumb){
@@ -92,91 +90,147 @@ class ViewController: UIViewController {
         case 1:
                 questionlbl.text = " 1   +   1   =   ? "
                 CorrectAnswer = Int(2)
-                answerlbl.text = " 1   +   1   =   2 !!! "
+                answerlbl.text = " 1   +   1   =   2  "
                 
             break
         case 2:
                 questionlbl.text = " 1   +   2   =   ? "
                 CorrectAnswer = Int(3)
-                answerlbl.text = " 1   +   2   =   3 !!! "
+                answerlbl.text = " 1   +   2   =   3  "
                
             break
         case 3:
-                questionlbl.text = " 5   +   3   =   ? "
-                CorrectAnswer = Int(8)
-                answerlbl.text = " 5   +   3   =  8 !!! "
+                questionlbl.text = " 1   +   3   =   ? "
+                CorrectAnswer = Int(4)
+                answerlbl.text = " 1   +   3   =  4  "
             
             break
         case 4:
-                questionlbl.text = " 3   +   4   =   ? "
-                CorrectAnswer = Int(7)
-                answerlbl.text = " 3   +   4   =   7 !!! "
+                questionlbl.text = " 1   +   4   =   ? "
+                CorrectAnswer = Int(5)
+                answerlbl.text = " 1   +   4   =   5  "
             
             break
         case 5:
-                questionlbl.text = " 2   +   2   =   ? "
-                CorrectAnswer = Int(4)
-                answerlbl.text = " 2   +   2   =   4 !!! "
+                questionlbl.text = " 2   +   1   =   ? "
+                CorrectAnswer = Int(3)
+                answerlbl.text = " 2   +   1   =   3  "
                 
             break
         case 6:
-                questionlbl.text = " 2   +   3   =   ? "
-                CorrectAnswer = Int(5)
-                answerlbl.text = " 2   +   3   =   5 !!! "
+                questionlbl.text = " 2   +   2   =   ? "
+                CorrectAnswer = Int(4)
+                answerlbl.text = " 2   +   2   =   4  "
             
             break
         case 7:
-                questionlbl.text = " 2   +   4   =   ? "
-                CorrectAnswer = Int(6)
-                answerlbl.text = " 2   +   4   =   6 !!! "
+                questionlbl.text = " 2   +   3   =   ? "
+                CorrectAnswer = Int(5)
+                answerlbl.text = " 2   +   3   =   5  "
                 
             break
         case 8:
-                questionlbl.text = " 2   +   5   =   ? "
-                CorrectAnswer = Int(7)
-                answerlbl.text = " 2   +   5   =   7 !!! "
+                questionlbl.text = " 2   +   4   =   ? "
+                CorrectAnswer = Int(6)
+                answerlbl.text = " 2   +   4   =   6  "
         
             break
         case 9:
-                questionlbl.text = " 2   +   6   =   ? "
-                CorrectAnswer = Int(8)
-                answerlbl.text = " 2   +   6   =   8 !!! "
+                questionlbl.text = " 3   +   1   =   ? "
+                CorrectAnswer = Int(4)
+                answerlbl.text = " 3   +   1   =   4  "
            break
         case 10:
-                questionlbl.text = " 2   +   7   =   ? "
-                CorrectAnswer = Int(9)
-                answerlbl.text = " 2   +   7   =   9 !!! "
+                questionlbl.text = " 3   +   2   =   ? "
+                CorrectAnswer = Int(5)
+                answerlbl.text = " 3   +   2   =   5  "
            break
         case 11:
-                questionlbl.text = " 3   -   2   =   ? "
-                CorrectAnswer = Int(1)
-                answerlbl.text = " 3   -   2   =   1 !!! "
+                questionlbl.text = " 3   +   3   =   ? "
+                CorrectAnswer = Int(6)
+                answerlbl.text = " 3   +   3   =   6  "
                 
             break
         case 12:
-                questionlbl.text = " 4   -   2   =   ? "
-                CorrectAnswer = Int(2)
-                answerlbl.text = " 4   -   2   =   2 !!! "
+                questionlbl.text = " 3   +   4   =   ? "
+                CorrectAnswer = Int(7)
+                answerlbl.text = " 3   +   4   =   7  "
             
             break
         case 13:
-                questionlbl.text = " 5   -   2   =   ? "
-                CorrectAnswer = Int(3)
-                answerlbl.text = " 5   -   2   =   3  !!! "
+                questionlbl.text = " 4   +   1   =   ? "
+                CorrectAnswer = Int(5)
+                answerlbl.text = " 4   +   1   =   5  "
             
             break
         case 14:
-                questionlbl.text = " 6   -   2   =   ? "
-                CorrectAnswer = Int(4)
-                answerlbl.text = " 6   -   2   =   4 !!! "
+                questionlbl.text = " 4   +   2   =   ? "
+                CorrectAnswer = Int(6)
+                answerlbl.text = " 4   +   2   =   6  "
                 
             break
         case 15:
-                questionlbl.text = " 7   -   2  =   ? "
-                CorrectAnswer = Int(5)
-                answerlbl.text = " 7   -   2   =   5 !!! "
+                questionlbl.text = " 4   +   3  =   ?  "
+                CorrectAnswer = Int(7)
+                answerlbl.text = " 4   +   3   =   7  "
                 
             break
+        case 16:
+                questionlbl.text = " 4   +   4  =   ?  "
+                CorrectAnswer = Int(8)
+                answerlbl.text = " 4   +   4   =   8  "
+                
+            break
+        case 17:
+                questionlbl.text = " 0   +   0  =   ?  "
+                CorrectAnswer = Int(0)
+                answerlbl.text = " 0   +   0   =   0  "
+            
+            break
+        case 18:
+                questionlbl.text = " 0   +   1  =   ?  "
+                CorrectAnswer = Int(1)
+                answerlbl.text = " 0   +   1   =   1  "
+            
+            break
+        case 19:
+                questionlbl.text = " 0   +   2  =   ?  "
+                CorrectAnswer = Int(2)
+                answerlbl.text = " 0   +   2   =   2  "
+            
+            break
+        case 20:
+                questionlbl.text = " 0   +   3  =   ?  "
+                CorrectAnswer = Int(3)
+                answerlbl.text = " 0   +   3   =   3  "
+            
+            break
+        case 21:
+                questionlbl.text = " 0   +   4  =   ?  "
+                CorrectAnswer = Int(4)
+                answerlbl.text = " 0   +   4   =   4  "
+            
+            break
+        case 22:
+                questionlbl.text = " 3   -   1  =   ?  "
+                CorrectAnswer = Int(2)
+                answerlbl.text = " 3   -   1   =   2  "
+            
+            break
+        case 23:
+                questionlbl.text = " 4  -   3  =   ?  "
+                CorrectAnswer = Int(1)
+                answerlbl.text = " 4   -   3   =   1  "
+            
+            break
+        case 24:
+                questionlbl.text = " 3   -   3  =   ?  "
+                CorrectAnswer = Int(0)
+                answerlbl.text = " 3   -   3   =   0  "
+            
+            break
+            
+            
             
         default:
             break
@@ -269,32 +323,38 @@ class ViewController: UIViewController {
         
         Questions()
         CongratsScreen.hidden = true
+        Animation()
     }
     
     
     func Animation() {
         
-    UIView.animateWithDuration(5.0, animations: {
+        UIView.animateWithDuration(10.0, animations: {
+        UIView.beginAnimations(nil, context: nil)
     
-    UIView.beginAnimations(nil, context: nil)
-    UIView.setAnimationDuration(60)
-    UIView.setAnimationCurve(UIViewAnimationCurve.EaseIn)
-    let radians = CGFloat(1440 * M_PI / 1440)
-    self.star1.transform = CGAffineTransformMakeRotation(radians)
-    self.star2.transform = CGAffineTransformMakeRotation(radians)
-    self.star3.transform = CGAffineTransformMakeRotation(radians)
-    self.star4.transform = CGAffineTransformMakeRotation(radians)
-    self.thumbsup.transform = CGAffineTransformMakeScale(0.8, 0.75)
-    UIView.commitAnimations()
+
+        UIView.setAnimationDuration(30)
+        UIView.setAnimationCurve(UIViewAnimationCurve.EaseIn)
     
-    })
+        let radians = CGFloat(720 * M_PI / 720)
+        self.star1.transform = CGAffineTransformMakeRotation(radians)
+        self.star2.transform = CGAffineTransformMakeRotation(radians)
+        self.star3.transform = CGAffineTransformMakeRotation(radians)
+        self.star4.transform = CGAffineTransformMakeRotation(radians)
+        self.thumbsup.transform = CGAffineTransformMakeScale(0.8, 0.75)
+    
+        UIView.commitAnimations()
+    
+    }
 
     
     
-    
+        )}
 }
 
-}
+
+
+
 
 
 
